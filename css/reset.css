@@ -104,3 +104,9 @@ input, select {
 .clear {
     clear: both;
 }
+
+/* --------------Responsive---------*/
+
+body{
+    text-align: center;
+}
