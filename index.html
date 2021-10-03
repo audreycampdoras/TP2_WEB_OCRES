@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-	<head>
-		<meta charset="UTF-8" />
-		<title>Rdio - Luke Chesser</title>
 
-		<link rel="stylesheet" href="css/reset.css"/>
-		<link rel="stylesheet" href="css/global.css"/>
-	</head>
-	<body>
-		<header>
-			<div class="wrapper">
-				<div class="logo-search">
-					<img class="pull-left" src="img/logo.png" />
-				</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<title>Rdio - Luke Chesser</title>
 
-				<form method="POST" action="index.html">
-					<input type="search" required class="search">
-					<input type="submit" name="submit" value="Rechercher" class="submit">
-				</form>
-				<div class="user">
-				    <a href="#">Luke Chesser</a>
-				</div>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/global.css" />
+</head>
+
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="logo-search">
+				<img class="pull-left" src="img/logo.png" />
 			</div>
-		</header>
+
+			<form method="POST" action="index.html">
+				<input type="search" required class="search">
+				<input type="submit" name="submit" value="Rechercher" class="submit">
+			</form>
+			<div class="user">
+				<a href="#">Luke Chesser</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="site">
 		<aside>
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -41,15 +46,18 @@
 			</nav>
 		</aside>
 
+
 		<main>
 			<header>
 				<div class="name-photo">
-					<aside>
+					<div class="png">
 						<img src="img/artist.png" />
-					</aside>
+					</div>
 					<div class="name">
 						<h1>Luke Chesser</h1>
-						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+						<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img
+									class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/"
+								target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 					</div>
 				</div>
 				<div class="stats-links">
@@ -67,10 +75,14 @@
 					</div>
 				</div>
 			</header>
-			<h2>Top Album</h2>
-			<div>
-				<a class="station" href="#">Start Station</a>
+
+			<div class="Top-album">
+				<h2>Top Album</h2>
+				<div>
+					<a class="station" href="#">Start Station</a>
+				</div>
 			</div>
+
 			<section id="albums">
 				<article>
 					<figure>
@@ -154,5 +166,8 @@
 				</article>
 			</section>
 		</main>
-	</body>
+	</div>
+
+</body>
+
 </html>

@@ -107,6 +107,81 @@ input, select {
 
 /* --------------Responsive---------*/
 
-body{
-    text-align: center;
+
+
+.site{
+    display: flex;
+    
+    
 }
+
+.name-photo.aside{
+    justify-content: left;
+}
+
+aside{
+    display: flex;
+    width: 15em;
+    margin: 2em;
+    flex-direction: column;  
+    align-items: flex-end;
+    
+}
+
+
+main{
+    margin: auto;
+    width: calc(100% - 15em);
+}
+
+#albums{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+
+.Top-album div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+    aside {
+      display: none;
+    }
+    .stats-links{
+        flex-direction: row;
+    }
+    .links{
+        align-self: flex-end;
+    }
+  }
+
+.stats-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-photo{
+    display: flex;
+}
+
+.name{
+    margin-left: 1em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper form{
+    width: 20%;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper form{
+        display: none;
+    }
+  }
